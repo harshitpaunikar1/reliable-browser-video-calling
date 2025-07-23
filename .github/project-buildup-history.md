@@ -28,3 +28,7 @@
 
 - Task summary: Noticed something off from this morning — there was a subtle off-by-one error in the index slicing that was silently skewing results. Caught it and fixed it.
 - Deliverable: Minor but worth doing.
+## 2025-07-23 - Day 6: Architecture
+
+- Task summary: This was the middle stretch where the project started feeling real. I kept going and tried to sketch a lightweight architecture or component breakdown, then cleaned up whatever looked confusing or weak from the earlier days. Once the base made some sense, I could finally move a bit faster and stop second guessing every tiny decision. There were a few moving parts here, so I kept simplifying the plan in my head before touching anything else.
+- Deliverable: Ended the day with system sketch in hand, plus a few side notes on what still needed fixing later. There were still a couple of loose parts, but nothing serious enough to block the next step.
