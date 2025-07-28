@@ -56,3 +56,7 @@
 
 - Task summary: Spent another hour on this: cleaned up the cell ordering in the notebook so it reads top to bottom without jumping around.
 - Deliverable: Small fix, clean result.
+## 2025-07-28 - Day 9: Interactions
+
+- Task summary: Quick follow-up: went back and reorganized the config section so values are not buried mid-script.
+- Deliverable: Pushed before end of day.
