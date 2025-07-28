@@ -52,3 +52,7 @@
 
 - Task summary: One more pass: spent time just reading back through everything to make sure it still made sense end to end.
 - Deliverable: Good enough to not be embarrassing.
+## 2025-07-28 - Day 9: Interactions
+
+- Task summary: Spent another hour on this: cleaned up the cell ordering in the notebook so it reads top to bottom without jumping around.
+- Deliverable: Small fix, clean result.
