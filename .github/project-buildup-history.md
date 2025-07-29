@@ -76,3 +76,7 @@
 
 - Task summary: After stepping away for a bit, came back and added inline comments in the dense sections — would have been confusing to revisit without them.
 - Deliverable: One of those satisfying small wins.
+## 2025-07-29 - Day 10: Artifacts
+
+- Task summary: Ended up revisiting this in the evening — the test I wrote this morning had a hardcoded path, swapped it for a relative one.
+- Deliverable: Pushed before end of day.
