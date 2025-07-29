@@ -72,3 +72,7 @@
 
 - Task summary: Circled back: found a duplicate function that slipped in during copy-paste. Removed it.
 - Deliverable: Good enough to not be embarrassing.
+## 2025-07-29 - Day 10: Artifacts
+
+- Task summary: After stepping away for a bit, came back and added inline comments in the dense sections — would have been confusing to revisit without them.
+- Deliverable: One of those satisfying small wins.
