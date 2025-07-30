@@ -80,3 +80,7 @@
 
 - Task summary: Ended up revisiting this in the evening — the test I wrote this morning had a hardcoded path, swapped it for a relative one.
 - Deliverable: Pushed before end of day.
+## 2025-07-30 - Day 11: README check
+
+- Task summary: Closer to the end, I was mostly tightening things up instead of inventing new scope. The job for the day was to write a README that explains the problem, solution, and how to review the project so the final result looked a bit more complete. Toward the end I mostly kept trimming weird bits, fixing wording, and tying the loose parts together. I spent part of the day just reducing confusion between components, names, and responsibilities.
+- Deliverable: Ended the day with project README in hand, plus a few side notes on what still needed fixing later. I also left myself a few rough reminders for the next day so I would not have to rediscover the same context again.
