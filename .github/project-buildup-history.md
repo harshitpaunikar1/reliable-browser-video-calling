@@ -26,7 +26,7 @@
 - Deliverable: I wrapped up the day with content outline mostly in place. It was not perfect, but it was good enough to keep the project moving. I also left myself a few rough reminders for the next day so I would not have to rediscover the same context again.
 ## 2025-07-22 - Day 5: Content outline
 
-- Task summary: Noticed something off from this morning — there was a subtle off-by-one error in the index slicing that was silently skewing results. Caught it and fixed it.
+- Task summary: Noticed something off from this morning - there was a subtle off-by-one error in the index slicing that was silently skewing results. Caught it and fixed it.
 - Deliverable: Minor but worth doing.
 ## 2025-07-23 - Day 6: Architecture
 
@@ -74,11 +74,11 @@
 - Deliverable: Good enough to not be embarrassing.
 ## 2025-07-29 - Day 10: Artifacts
 
-- Task summary: After stepping away for a bit, came back and added inline comments in the dense sections — would have been confusing to revisit without them.
+- Task summary: After stepping away for a bit, came back and added inline comments in the dense sections - would have been confusing to revisit without them.
 - Deliverable: One of those satisfying small wins.
 ## 2025-07-29 - Day 10: Artifacts
 
-- Task summary: Ended up revisiting this in the evening — the test I wrote this morning had a hardcoded path, swapped it for a relative one.
+- Task summary: Ended up revisiting this in the evening - the test I wrote this morning had a hardcoded path, swapped it for a relative one.
 - Deliverable: Pushed before end of day.
 ## 2025-07-30 - Day 11: README check
 

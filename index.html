@@ -178,7 +178,7 @@
   <div class="content">
     <p>The standard demonstration of WebRTC takes place on a single machine running two browser tabs over localhost, or across a permissive home Wi-Fi network. In this constrained environment, camera access routes straight through the browser, an Offer is pasted from one window to another, and media flows directly. This breeds a fundamental misconception about browser-to-browser media: developers begin to view a WebRTC video platform as merely a user interface problem.</p>
 
-    <p>That assumption shatters immediately in the wild. The internet is inherently hostile to unsolicited incoming connections. When an application attempts to bridge a tutor in an institutional network with a student operating behind a cellular carrier’s carrier-grade NAT, direct packet exchange is not just difficult — it is actively prohibited by firewalls and address translation layers. Failing to plan for this hostility guarantees dropped connections, one-way audio, and opaque black screens.</p>
+    <p>That assumption shatters immediately in the wild. The internet is inherently hostile to unsolicited incoming connections. When an application attempts to bridge a tutor in an institutional network with a student operating behind a cellular carrier’s carrier-grade NAT, direct packet exchange is not just difficult - it is actively prohibited by firewalls and address translation layers. Failing to plan for this hostility guarantees dropped connections, one-way audio, and opaque black screens.</p>
 
     <p>Building a reliable video calling system means discarding the fantasy of seamless peer-to-peer communication. Instead, you must engineer a robust negotiation mechanism that expects failure, systematically seeks out the least obstructed path, and seamlessly falls back to centralized routing infrastructure when the direct path is denied. This article deconstructs the connection architecture required to make a WebRTC call establish and persist, regardless of the network topologies the endpoints inhabit.</p>
 
@@ -280,7 +280,7 @@
         </defs>
       </svg>
     </div>
-    <figcaption>Fig 1. — The Interactive Connectivity Establishment (ICE) knot. When restrictive networks or symmetric NATs block direct peer-to-peer media paths (center dashed line), STUN candidate discovery fails to yield a routable connection. The framework gracefully routes media through a heavy TURN relay server located on the public internet, completing the circuit at the cost of bandwidth.</figcaption>
+    <figcaption>Fig 1. - The Interactive Connectivity Establishment (ICE) knot. When restrictive networks or symmetric NATs block direct peer-to-peer media paths (center dashed line), STUN candidate discovery fails to yield a routable connection. The framework gracefully routes media through a heavy TURN relay server located on the public internet, completing the circuit at the cost of bandwidth.</figcaption>
   </div>
 
   <div class="content">
@@ -336,7 +336,7 @@ peerConnection.onicecandidate = (event) => {
 
     <h2>[ CHK_05 ] Diagnostics and Graceful Degradation</h2>
 
-    <p>The most dangerous moment in a WebRTC session is not the initial handshake—it connects or it does not. The danger lies in environmental shifts: a student walking out of Wi-Fi range and dropping onto a congested LTE band. Handling this requires monitoring the <code>getStats()</code> API and recognizing bandwidth estimations.</p>
+    <p>The most dangerous moment in a WebRTC session is not the initial handshake-it connects or it does not. The danger lies in environmental shifts: a student walking out of Wi-Fi range and dropping onto a congested LTE band. Handling this requires monitoring the <code>getStats()</code> API and recognizing bandwidth estimations.</p>
 
     <p>The browser's internal engine utilizes Google Congestion Control (GCC) and sends RTCP feedback messages (like Receiver Estimated Maximum Bitrate) back to the sender. If the pipeline detects excessive packet loss, the sending browser will autonomously drop resolution (from 720p to 480p), lower frame rates, or aggressively compress the video. As an engineer, you surface this state to the user interface.</p>
 
@@ -352,7 +352,7 @@ peerConnection.onicecandidate = (event) => {
 
     <p>Leaving users staring at frozen frames while an opaque connection times out breaches operational trust. By hooking the event states, the application can issue warnings when ICE enters the <code>disconnected</code> state. When ICE inevitably falls over, a decisive teardown and a prompt offering an audio-only renegotiation often succeeds where dense video packets fail.</p>
     
-    <p>Reliable browser video calling demands accepting structural pessimism. The network is adversarial. Establishing a connection does not require hope; it requires systematically exhausting an extensive list of failure paths—checking local bounds, asking the STUN mirror, falling through to the TURN relay, and securing every packet—until the media finally finds a way out.</p>
+    <p>Reliable browser video calling demands accepting structural pessimism. The network is adversarial. Establishing a connection does not require hope; it requires systematically exhausting an extensive list of failure paths-checking local bounds, asking the STUN mirror, falling through to the TURN relay, and securing every packet-until the media finally finds a way out.</p>
 
   </div>
 
